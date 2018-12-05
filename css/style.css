@@ -425,10 +425,9 @@
   border-radius: 2px;
   resize: none;
 }
-.contato__formulario_submit{
+
+.contato__formulario_submit {
   margin-top: 20px;
-}
-.contato__formulario_submit input {
   width: 100%;
   max-width: 405px;
   text-align: center;
