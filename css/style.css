@@ -4,6 +4,10 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  .nav__link {
+    font-weight: bold;
+  }
   
   html {
     scroll-behavior: smooth;
@@ -39,7 +43,9 @@
     font-size: 37px;
   }
   
-
+.photo_name{
+  margin: 9px;
+}
   
 
 @media (max-width: 960px) {
@@ -70,9 +76,16 @@
   }
   
   .nav__link {
-    color: #4F1A26;
+    color: #4f1a26;
     margin-right: 30px;
-  }
+    
+}
+
+
+.nav__menu > .nav__link{
+  font-weight: bold;
+}
+  
   
   .nav__link:hover {
     color:rgb(219, 206, 209);
@@ -470,6 +483,9 @@ margin: 0 30px;
 .contato__formulario_submit:hover {
   opacity: 1;
   background-color: #ad989d;
+}
+.error{
+  color: red;
 }
 #input-assunto {
   width: 100%;

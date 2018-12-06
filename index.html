@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+
     <head>
 
     <body>
@@ -115,7 +116,9 @@
                         <div class="importante-saber__passo-a-passo_passos">
                             <img src="img/location-map.svg" alt="Primeiro passo">
                             <p>
-                                <span class="importante-saber__passo-a-passo_passos-negrito">Você nos diz quem é!</span><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .
+                                <span class="importante-saber__passo-a-passo_passos-negrito">Você nos diz quem é!</span><br>Lorem
+                                ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .
                             </p>
                         </div>
                         <!-- <div class="importante-saber__passo-a-passo_passos-seta">
@@ -125,7 +128,9 @@
                             <img src="img/team.svg" alt="Segundo passo">
                             <p>
                                 <span class="importante-saber__passo-a-passo_passos-negrito">
-                                    Montamos o melhor roteiro</span><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .
+                                    Montamos o melhor roteiro</span><br>Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation .
                             </p>
                         </div>
                         <!-- <div class="importante-saber__passo-a-passo_passos-seta">
@@ -135,7 +140,9 @@
                             <img src="img/map-perspective-with-a-placeholder-on-it.svg" alt="Terceiro passo">
                             <p>
                                 <span class="importante-saber__passo-a-passo_passos-negrito">
-                                    Aproveite sua viagem</span><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .
+                                    Aproveite sua viagem</span><br>Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                minim veniam, quis nostrud exercitation .
                             </p>
                         </div>
                     </div>
@@ -152,7 +159,7 @@
                     Fale com a gente!
                 </h2>
                 <div class="contato__formulario">
-                        <form name="contact" method="POST" netlify>
+                    <form class="formulario" name="contact" method="POST" netlify>
                         <div>
                             <label>
 
@@ -169,45 +176,38 @@
                             <div class="contato__formulario_dados-email">
                                 <label for="email">Email</label>
                                 <br>
-                                <input type="email" name="email">
+                                <input type="email" required name="email">
                             </div>
                         </div>
                         <div class="contato__formulario_linha">
                             <label for="assunto">Assunto</label>
                             <br>
-                            <input id="input-assunto" type="text" name="assunto">
+                            <input id="input-assunto" required type="text" name="assunto">
                         </div>
                         <div class="contato__formulario_linha">
                             <label for="mensagem">Mensagem</label>
                             <br>
-                            <textarea name="mensagem" rows="8"></textarea>
+                            <textarea name="mensagem"  required rows="8"></textarea>
                         </div>
                         <div>
-                            <button class="contato__formulario_submit" name="submit" >Enviar</button>
+                            <button class="contato__formulario_submit" type="submit" name="submit">Enviar</button>
                         </div>
                     </form>
                 </div>
             </section>
             </div>
-
-
             <section class="sobre-mim">
                 <div class="container">
                     <h2 class="sobre-mim_titulo">Meu Papel no Universo</h2>
                     <div class="sobre-mim_box">
                         <div class="col1">
-                                
-
-                                <a href="#" class="photo">
-                                  <h1 class="teste">Danyele Sales</h1>
-                                    <img src="img/dany.jpeg" />
-                                  <div class="glow-wrap">
+                            <a href="#" class="photo">
+                                <h1 class="photo_name">Danyele Sales</h1>
+                                <img src="img/dany.jpeg" />
+                                <div class="glow-wrap">
                                     <i class="glow"></i>
-                                  </div>
-                                </a>
-                                
-                                
-                              
+                                </div>
+                            </a>
                         </div>
                         <div>
                             <p class="col2">Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget
@@ -247,14 +247,16 @@
                     </li>
                 </ul>
                 <div>
-                    <small>Copyright © 2018</small>
+                    <small>Copyright © 2018 | Developer Front-end</small>
                 </div>
             </footer>
 
         </main>
 
         </container>
-        <script src="script/script.js"></script>
     </body>
+    <script src="script/jquery.slim.min.js"></script>
+    <script src="script/jquery.validate.min.js"></script>
+    <script src="script/script.js"></script>
 
 </html>
