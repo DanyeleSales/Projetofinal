@@ -28,7 +28,7 @@
   }
   
   .container {
-    width: 1031px;
+    width: 1002px;
     margin: 0 auto;
   }
   h1, h2{
@@ -36,7 +36,7 @@
     text-align: center;
     z-index: 15;
     font-size: 2rem;
-
+    font-size: 37px;
   }
   
 
@@ -131,7 +131,11 @@
     .banner__subtitle {
       font-size: 18px;
       padding: 0px 46px;
-    }
+    }  
+    .estatistica-section {
+      display: none;
+  }
+    
   }
   @media (max-width: 420px) {
     .banner__subtitle {
@@ -472,12 +476,11 @@ margin: 0 30px;
 }
 .sobre-mim_titulo{
   text-align: center;
-  margin-bottom: 30px;
-  margin-bottom: 52px;
+  margin-bottom: 37px;
 }
 .sobre-mim{
   width: 100%;
-  padding: 59px 0; 
+  padding: 52px 0;
   background-color: #e6e1e196;
 }
 .sobre-mim_box{
@@ -506,11 +509,11 @@ a{
   width: 200px;
   height: 280px;
   object-fit: cover;
-  filter: grayscale(100%) contrast(120%);
+  filter: grayscale(95%) contrast(114%);
   box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
   display: block;
   transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
-  margin-top: -10px;
+  margin-top: -4px;
 }
 
 .photo:hover img{
