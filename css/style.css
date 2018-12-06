@@ -28,7 +28,7 @@
   }
   
   .container {
-    width: 960px;
+    width: 1031px;
     margin: 0 auto;
   }
   h1, h2{
@@ -70,16 +70,17 @@
   
   .nav__link {
     color: #4F1A26;
-    margin-right: 50px;
+    margin-right: 30px;
   }
   
   .nav__link:hover {
-    color:#9C616F;
+    color:rgb(219, 206, 209);
   }
   
   .nav__mobile {
     display: none;
   }
+  
   
   @media (max-width: 420px) {
     .nav {
@@ -119,18 +120,40 @@
 .banner__subtitle {
   color: rgba(255, 255, 255, .7);
   font-size: 32px;
+  margin-top: 72px;
   font-weight: 400;
-  line-height: 28px;
-  display: flex;
-  height: 400px;
-  align-items: flex-end;
+  line-height: 50px;
+  padding: 108px 78px;
   }
   
   @media (max-width: 850px) {
     .banner__subtitle {
       font-size: 18px;
+      padding: 0px 126px;
     }
   }
+  @media (max-width: 420px) {
+    .banner__subtitle {
+      font-size: 18px;      
+      color: rgba(255, 255, 255, .7);
+      font-size: 32px;
+      margin-top: 236px;
+      font-weight: 400;
+      padding: 5px 0px;     
+    }
+  }
+  .estatistica-section{
+    padding: 21px;
+    background: #b2adaf;
+  }
+.estatistica{
+  background: #b2adaf;
+  }
+
+.estatistica_img{
+  margin: 18px auto;
+  display: flex;
+}
 
 .steps {
   position: relative;
@@ -280,16 +303,16 @@
   -o-transition: all 300ms ease-in-out;
 }
 .steps-area {
-    padding: 71px 0px;
-    top: 30px;
+  padding: 51px 0px;
+  top: 2px;
 }
 
 .importante-saber {
-    text-align: center;
-    padding: 80px;
-     width: 100%;
-    flex-direction: column;
-    background-color: #ebe9e9ad;
+  text-align: center;
+  padding: 80px;
+    width: 100%;
+  flex-direction: column;
+  background-color: #ebe9e9ad;
 }
 
 .importante-saber h2 {
@@ -300,25 +323,25 @@
 }
 
 .importante-saber__passo-a-passo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .importante-saber__passo-a-passo_passos {
-    width: 25%;
-    max-width: 28ch;      
+  width: 25%;
+  max-width: 28ch;      
 }
 
 .importante-saber__passo-a-passo_passos p{
-    margin-bottom: 0;
-    font-size: 19px;
-    color: #757474;  
+  margin-bottom: 0;
+  font-size: 19px;
+  color: #757474;  
 }
 
 .importante-saber__passo-a-passo_passos img{
-    width: 120px;
-    height: 80px;
+  width: 120px;
+  height: 80px;
 }
 
 .importante-saber__passo-a-passo_passos-negrito {
@@ -328,27 +351,39 @@
 }
 
 .importante-saber__passo-a-passo_passos-seta {
-    margin: 0 30px;
+margin: 0 30px;
 }
-
 .importante-saber__passo-a-passo_passos-seta img {
-    width: 40px;
-    height: 20px;
+  width: 40px;
+  height: 20px;
 }
 
+@media (max-width: 420px) {
+  .importante-saber__passo-a-passo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .importante-saber {
+    display: flex;
+    padding: 50px;
+    width: 100%;
+    flex-direction: column;
+    background-color: #ebe9e9ad;     
+  }
+  .importante-saber__passo-a-passo_passos {
+    width: 100%;
+    max-width: 15ch;  
+  }
 
-
-
-
-
+}
 .contato {
   text-align: center;
-  padding-top: 20px;
-  
+  padding-top: 20px;  
   /* background-color: #ebe9e9ad; */
-  padding-bottom: 80px;
- 
-  
+  padding-bottom: 80px;  
 }
 
 .contato h2 {
@@ -357,7 +392,6 @@
     font-weight: lighter;
     padding: 26px;
 }
-
 .contato__formulario {
   width: 86%;
   max-width: 400px;
@@ -365,56 +399,43 @@
   font-size: 19px;
   align-items: center;
 }
-
 .contato__formulario_linha {
   margin-top: 5px;
 }
-
 .contato__formulario_linha input {
   width: 100%;
 }
-
 .contato__formulario_linha--dividida div {
   width: 50%;
 } 
-
 .contato__formulario_dados-nome {
   margin-right: 18px;
 }
-
 .contato__formulario_assunto {
   margin-top: 10px;
 }
-
 .contato__formulario input{
   background-color: #f5e86e88;
   border: 1px solid #f5e86eec;
   margin-top: 3px;
   border-radius: 2px;
 }
-
 .contato__formulario label {
   width: 100%;
   text-align: left;
   display: inline-block;
 }
-
 .contato__formulario_assunto label {
   font-size: 16px;
-
 }
-
 .contato__formulario_assunto input{
   padding: 1px 106px;
 }
-
 .contato__formulario_mensagem {
   margin-top: 10px;
 }
-
 .contato__formulario_mensagem label {
-  margin-right: 330px;
-  
+  margin-right: 330px;  
 }
 .contato__formulario textarea{
   width: 100%;
@@ -425,7 +446,6 @@
   border-radius: 2px;
   resize: none;
 }
-
 .contato__formulario_submit {
   margin-top: 20px;
   width: 100%;
@@ -450,24 +470,18 @@
   margin-bottom: 52px;
 }
 .sobre-mim{
-  width: 100%;  
-  height: 400px;
-  padding: 10px;  
+  width: 100%;
+  padding: 59px 0; 
   background-color: #ebe9e9ad;
 }
-
 .sobre-mim_box{
   display: flex;
-  flex-direction: row;
-  /* flex-direction: column; media */
+  flex-direction: row; 
   align-items: center;
 }
-
 .col2{
-  width:500px;;
-}
-
-    
+  width:500px;
+}    
 .pic1{
   width: 100%;
   max-width: 400px;
@@ -475,43 +489,48 @@
   float: left;
   margin: 0 30px;
   border-radius: 13px;
+}  
+@media (max-width: 420px) {
+
+  .sobre-mim_box{
+    flex-direction: column;
   }
-  
+  .pic1 {
+    width: 100%;
+    max-width: 219px;
+    height: 243px;
+    float: left;
+    margin: 0 30px;
+    border-radius: 13px;
+    }
+  .col2 {
+    width: 299px;     
+    }
+  } 
+.footer {    
+  background: #b2adaf;
+  text-align: center;
+  padding: 11px;
+  color: #211f20;
+}  
+.footer__socialmedia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
 
-
-
-.footer {
-    
-    background: rgb(215, 216, 213);
-    margin-top: 70px;
-    text-align: center;
-    padding: 11px;
-    color: #5a656b;
-
-  }
-  
-  .footer__socialmedia {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 40px 0;
-  }
-  
-  .footer__twitter,
-  .footer__facebook,
-  .footer__youtube {
-    opacity: 0.5;
-    margin: 0 10px;
-  }
-  
-  .footer__twitter:hover,
-  .footer__facebook:hover,
-  .footer__youtube:hover {
-    opacity: 1;
-  }
-
-
-
-  .d-flex {
-    display: flex;
-  }
+.footer__twitter,
+.footer__facebook,
+.footer__youtube {
+  opacity: 0.5;
+  margin: 0 10px;
+}
+.footer__twitter:hover,
+.footer__facebook:hover,
+.footer__youtube:hover {
+  opacity: 1;
+}
+.d-flex {
+  display: flex;
+}
