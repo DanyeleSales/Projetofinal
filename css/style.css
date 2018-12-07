@@ -108,8 +108,7 @@
     .nav__mobile {
       display: block;
     }
-  }
-  
+  }  
 .banner-img{
   min-height: 661px;
   max-width: 100%;
@@ -148,7 +147,9 @@
     .estatistica-section {
       display: none;
   }
-    
+    #arrowTop{
+      display: none;
+    }    
   }
   @media (max-width: 420px) {
     .banner__subtitle {
@@ -328,7 +329,7 @@
 .importante-saber {
   text-align: center;
   padding: 80px;
-    width: 100%;
+  width: 100%;
   flex-direction: column;
   background-color: #eae8e9bf;
 }
@@ -516,10 +517,8 @@ a{
   color: #111
 }
 
-.photo{
-  /* position: absolute; */
+.photo{  
   position: relative;
-  /* transform: translate(-50%, -50%); */
   display: block;
 }
 
@@ -654,4 +653,43 @@ a{
 }
 .d-flex {
   display: flex;
+}
+
+
+.wrapper{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.article{
+  position: relative;
+  margin: auto;
+  overflow: auto;
+  text-align: justify;
+}
+
+.article__title{
+  color: #462755;
+}
+
+#arrowTop {    
+  color: #462755;
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  cursor: pointer;
+  background: 0 0;
+  border: 0;
+  font-size: 2em;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#arrowTop::before {
+content: '▲';
+}
+
+#arrowTop:hover {
+  color: #7F479B;
+  transition: 0.3s;
 }
