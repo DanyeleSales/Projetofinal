@@ -530,11 +530,22 @@ a{
   box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
   display: block;
   transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
-  margin-top: -4px;
+  margin-top:-4px;
+  margin: 0 auto;
 }
 
 .photo:hover img{
   box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+ 
+}
+@media (max-width: 760px) {
+.photo .glow-wrap:hover{
+  transition: all 300ms ease-in-out;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+}
+  
 }
 
 .photo .glow-wrap{
